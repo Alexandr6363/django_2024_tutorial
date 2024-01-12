@@ -18,3 +18,20 @@ install django
 # python -m django --version
 check in django version
 
+# django-admin startproject mysite
+create our new project
+
+# cd mysite
+go into directory with our project
+
+# python manage.py runserver
+try to start our server
+we can find it in browser on adress http://127.0.0.1:8000/ 
+or we can create a localserver which would reached from all the PC in local network 
+with this command 
+# python manage.py runserver 0.0.0.0:8000
+
+we can turn off our server with Ctrl+C (on PC)
+
+# python manage.py startapp polls
+create our first app
