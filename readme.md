@@ -35,3 +35,18 @@ we can turn off our server with Ctrl+C (on PC)
 
 # python manage.py startapp polls
 create our first app
+
+# python manage.py migrate
+create mirgate
+
+#  python manage.py makemigrations polls
+make migrations when we've created models
+
+# python manage.py sqlmigrate polls 0001
+to check migration's changes
+
+# python manage.py shell
+go to the API Django to try create examples of the model
+
+# python manage.py createsuperuser
+create superuser
